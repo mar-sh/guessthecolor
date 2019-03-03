@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GTC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./public/icons/color-question-mark.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./public/stylesheets/style.css">
+  </head>
+  <body>
+
+    <section class="section header">
+      <div class="main-header">
+        <div id="title-bar"><span id="title">Guess the Color</span></div>
+        <h1>RGB</h1>
+        <div id="messages"><span id="message-display">Correct/Wrong/Play Again/Try Again</span></div>
+      </div>
+
+      <div class="menu-bar">
+          <button id="reset">Reset</button>
+          <span id="life">Try Left: 3</span>
+          <span id="streak">Streak: 0</span>
+          <button class="mode selected" >Easy</button>
+          <button class="mode">Hard</button>
+      </div>  
+    </section>
+  
+    
+    <div id="main-container">
+      <div id="color-palette"> 
+        <div class="color-circle"></div>
+        <div class="color-circle"></div>
+        <div class="color-circle"></div>
+
+        <div class="color-circle"></div>
+        <div class="color-circle"></div>
+        <div class="color-circle"></div>
+
+        <div class="color-circle"></div>
+        <div class="color-circle"></div>
+        <div class="color-circle"></div>
+      </div>
+    </div>
+
+    <script src="./public/scripts/script.js"></script>
+  </body>
+</html>
